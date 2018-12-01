@@ -13,10 +13,7 @@ body {
     text-align: center;
     color: white;
     background-color: #101F5A;
-    margin: 0;
     padding: 60px 99px 15px;
-    background-image: url(../images/backArrow.png)
-    background-repeat: no-repeat;
 }
 
 .backArrow{
@@ -25,97 +22,92 @@ body {
     margin-left: 15px;
 }
 
-.container div{
-    margin-left: 35px;
+.left{
+    display:inline-block;
+    padding-left: 15px;
+    text-align:center;
+    width: 30%;
 }
 
-.bus60 h1{
-    font-size: 45px;
-    float: center;
-    text-align: left;
+.right{
+    padding-left: 32px;
+    display:inline-block;
 }
 
-.bus124 h1{
-    font-size: 45px;
-    float: center;
-    text-align: left;
+.rowContainer{
+    padding:0px 31px;
+}
+.wrapper{
+    padding:30px 0px;
+    border-bottom:2px solid #ACBCD3;
 }
 
-.bus151 h1{
-    font-size: 45px; 
-    float: center;
-    text-align: left;
+.rowContainer h1{
+    font-size:45pt;
+    font-weight:bold;
+}
+.rowContainer h2{
+    margin-top:5px;
+    font-size:15pt;
+}
+.rowContainer h3{
+    font-size:20pt;
+}
+.rowContainer h4{
+    font-size:15pt;
+    margin-top:6px;
 }
 
-.busJ14 h1{
-    font-size: 45px;
-    float: center;
-    text-align: left;
-}
-
-.bus6x h1{
-    font-size: 45px;
-    float: center;
-    text-align: left;
-}
-
-.bus4 h1{
-    font-size: 45px;
-    float: center;
-    text-align: left;
-}
-
-.bus20 h1{
-    font-size: 45px;
-    float: center;
-    text-align: left;
+span.emphasis{
+    font-weight:bold;
 }
 
 div h2{
-    float: center;
     margin-top: 8px;
-    text-align: left;
     font-size: 15px;
 }
 
 div h3{
-    float: right;
     font-size: 20px;
 }
 
 div h4{
-    float:right;
     font-size: 15px;
 }
 
-.line{
-    box-align: center;
-    margin-left:31px;
-}
-
 .lowerBar{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    height: 83px;
     background-color: #101F5A;
     color: white;
     font-size: 10px;
 }
 
+.lowerBar div{
+    display:inline-block;
+}
+
 .home{
     font-size: 10px;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 15%;
+    padding-top: 2%;
 }
 
 .home h1{
     margin-top: 5px;
+    color: #ACBCD3;
 }
-
 
 .schedule{
     font-size: 10px;
-    margin: 35px;
-    align-items: center;
+    padding-left: 16%;
+    padding-right: 16%;
+    text-align: center;
+    padding-top: 1%;
+}
+.schedule.clock{
+    display:block;
 }
 
 .schedule h1{
@@ -124,7 +116,10 @@ div h4{
 
 .busLocation{
     font-size: 10px;
-    margin: 35px;
+    padding-left: 11%;
+    padding-right: 5%;
+    text-align: center;
+    color: #ACBCD3;
 }
 
 .busLocation h1{
