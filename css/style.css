@@ -10,6 +10,9 @@ body {
 }
 
 .statusBar h1{
+    position: fixed;
+    width: 100%;
+    top: 0;
     text-align: center;
     color: white;
     background-color: #101F5A;
@@ -22,6 +25,11 @@ body {
     margin-left: 15px;
 }
 
+.busList{
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
 .left{
     display:inline-block;
     padding-left: 15px;
@@ -31,6 +39,7 @@ body {
 
 .right{
     padding-left: 32px;
+    top: 0;
     display:inline-block;
 }
 
@@ -76,6 +85,9 @@ div h4{
 }
 
 .lowerBar{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     height: 83px;
     background-color: #101F5A;
     color: white;
@@ -104,7 +116,7 @@ div h4{
     padding-left: 16%;
     padding-right: 16%;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 .schedule.clock{
     display:block;
