@@ -6,137 +6,124 @@
     <title>BusyBus</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
   <body>
     <section class="container">
-    <section class="statusBar">
-        <img src="images/backArrow.png" class="backArrow">
+    <header>
+    <div class="statusBar">
+        <img src="images/statusBar.png" alt="statusBar">
+    </div>
+    <nav>
+        <i class="fas fa-chevron-left"></i>
         <h1>Washington and State</h1>  
-    </section>
+    </nav>
+    </header>
     <section class="busList">
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>60</h1>
-            <h2>Eastbound</h2>
-          </div>
-          <div class="right">
-            <h3>Every <span class="emphasis">20</span> minutes</h3>
-            <h4>To Randolph/Harbor Dr</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>124</h1>
-            <h2>Eastbound</h2>
-          </div>
-          <div class="right">
-            <h3>Every <span class="emphasis">10</span> minutes</h3>
-            <h4>To Navy Pier</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>151</h1>
-            <h2>Northbound</h2>
-          </div>
-          <div class="right">
-            <h3>Every <span class="emphasis">16</span> minutes</h3>
-            <h4>To Devon/Clark</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>J14</h1>
-            <h2>Southbound</h2>
-          </div>
-          <div class="right">
-            <h3>Every <span class="emphasis">15</span> minutes</h3>
-            <h4>To 103rd/Stony Island</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>124</h1>
-            <h2>Southbound</h2>
-          </div>
-          <div class="right">
-            <h3>Every <span class="emphasis">10</span> minutes</h3>
-            <h4>To Navy Pier</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>6x</h1>
-            <h2>Reroute</h2>
-          </div>
-          <div class="right">
-            <h3>N/A</h3>
-            <h4>To Jackson Park Express</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>4</h1>
-            <h2>Out of <br>Service</br></h2>
-          </div>
-          <div class="right">
-            <h3>Resumes <span class="emphasis">12:10am</span></h3>
-            <h4>To Cottage Grove</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>20</h1>
-            <h2>Out of <br>Service</br></h2>
-          </div>
-          <div class="right">
-            <h3>Resumes <span class="emphasis">12:10am</span></h3>
-            <h4>To Madison</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rowContainer">
-        <div class="wrapper">
-          <div class="left">
-            <h1>157</h1>
-            <h2>Out of <br>Service</br></h2>
-          </div>
-          <div class="right">
-            <h3>Resumes <span class="emphasis">6:00am</span></h3>
-            <h4>To Streeterville</h4>
-          </div>
-        </div>
-      </div>
+      <ul class="row">
+        <li class="left">
+          <h1>60</h1>
+          <h2>Eastbound</h2>
+        </li>
+        <li class="right">
+          <h3>Every <span class="emphasis">20</span> minutes</h3>
+          <h4>To Randolph/Harbor Dr</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>124</h1>
+          <h2>Eastbound</h2>
+        </li>
+        <li class="right">
+          <h3>Every <span class="emphasis">10</span> minutes</h3>
+          <h4>To Navy Pier</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>151</h1>
+          <h2>Northbound</h2>
+        </li>
+        <li class="right">
+          <h3>Every <span class="emphasis">16</span> minutes</h3>
+          <h4>To Devon/Clark</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>J14</h1>
+          <h2>Southbound</h2>
+        </li>
+        <li class="right">
+          <h3>Every <span class="emphasis">15</span> minutes</h3>
+          <h4>To 103rd/Stony Island</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>124</h1>
+          <h2>Southbound</h2>
+        </li>
+        <li class="right">
+          <h3>Every <span class="emphasis">10</span> minutes</h3>
+          <h4>To Navy Pier</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>6x</h1>
+          <h2>Reroute</h2>
+        </li>
+        <li class="right">
+          <h3>N/A</h3>
+          <h4>To Jackson Park Express</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>4</h1>
+          <h2>Out of <br>Service</br></h2>
+        </li>
+        <li class="right">
+          <h3>Resumes <span class="emphasis">12:10am</span></h3>
+          <h4>To Cottage Grove</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>20</h1>
+          <h2>Out of <br>Service</br></h2>
+        </li>
+        <li class="right">
+          <h3>Resumes <span class="emphasis">12:10am</span></h3>
+          <h4>To Madison</h4>
+        </li>
+      </ul>
+      <ul class="row">
+        <li class="left">
+          <h1>157</h1>
+          <h2>Out of <br>Service</br></h2>
+        </li>
+        <li class="right">
+          <h3>Resumes <span class="emphasis">6:00am</span></h3>
+          <h4>To Streeterville</h4>
+        </li>
+      </ul>
     </section>
-    </section>
-    <section class="lowerBar"> 
+    <footer> 
       <div class="home">
-           <img src="images/home.png" class="home">
+          <i class="fas fa-home"></i>
            <h1>Home</h1>
       </div>
       <div class="schedule">
-           <img src="images/schedule.png" class="clock">
+           <i class="far fa-clock"></i>
            <h1>Schedule</h1>
       </div>
       <div class="busLocation">
-           <img src="images/busLocation.png" class="bus">
+           <i class="fas fa-bus"></i>
            <h1>Bus Location</h1>
       </div>
-    </section>
+    </footer>
   </body>  
 </html>    

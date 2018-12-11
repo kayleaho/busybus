@@ -9,25 +9,56 @@ body {
     background-repeat: no-repeat;
 }
 
-.statusBar h1{
+.container{
+    margin: 0 auto;
+    width: 375px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #101F5A;
+    position: fixed;
+}
+
+.statusBar{
+    padding: 1%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+nav h1{
     position: fixed;
     width: 100%;
     top: 0;
-    text-align: center;
     color: white;
-    background-color: #101F5A;
-    padding: 60px 99px 15px;
+    padding: 60px 50px 15px;
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 
-.backArrow{
+.fa-chevron-left{
     float: left;
-    margin-top: 60px;
-    margin-left: 15px;
+    width: 20%;
+    margin-left: 16px;
+    margin-top: 25px;
+    color: white;
 }
 
 .busList{
-    margin-top: 90px;
-    margin-bottom: 80px;
+    overflow-y: scroll;
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+
+.row{
+    height: 100px;
+    border-bottom: 2px solid #ACBCD3;
+    padding-top: 10px;
+}
+.row:last-child {
+    border-bottom: none;
 }
 
 .left{
@@ -37,103 +68,94 @@ body {
     width: 30%;
 }
 
+.left h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.left h2{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
 .right{
     padding-left: 32px;
     top: 0;
     display:inline-block;
 }
 
-.rowContainer{
-    padding:0px 31px;
-}
-.wrapper{
-    padding:30px 0px;
-    border-bottom:2px solid #ACBCD3;
-}
-
-.rowContainer h1{
-    font-size:45pt;
-    font-weight:bold;
-}
-.rowContainer h2{
-    margin-top:5px;
-    font-size:15pt;
-}
-.rowContainer h3{
-    font-size:20pt;
-}
-.rowContainer h4{
-    font-size:15pt;
-    margin-top:6px;
-}
-
-span.emphasis{
-    font-weight:bold;
-}
-
-div h2{
-    margin-top: 8px;
-    font-size: 15px;
-}
-
-div h3{
+.right h3{
     font-size: 20px;
 }
 
-div h4{
-    font-size: 15px;
+.emphasis{
+    font-weight: bold;
 }
 
-.lowerBar{
+.right h4{
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+footer{
     position: fixed;
-    width: 100%;
+    width: 375px;
+    height: 80px;
     bottom: 0;
-    height: 83px;
     background-color: #101F5A;
     color: white;
     font-size: 10px;
-}
-
-.lowerBar div{
-    display:inline-block;
+    margin: 0 auto;
 }
 
 .home{
+    float: left;
     font-size: 10px;
     text-align: center;
-    padding-left: 7%;
-    padding-right: 15%;
-    padding-top: 2%;
+    padding-top:2%;
+    width: 30%;
+    color: #5D80B6;
 }
 
 .home h1{
     margin-top: 5px;
-    color: #ACBCD3;
+    color: #5D80B6;
+}
+
+.fa-home{
+    font-size: 25px;
 }
 
 .schedule{
+    float: left;
     font-size: 10px;
-    padding-left: 16%;
-    padding-right: 16%;
     text-align: center;
-    padding-top: 2%;
-}
-.schedule.clock{
-    display:block;
+    padding-top:2%;
+    width: 40%;
+    color: white;
 }
 
 .schedule h1{
     margin-top: 5px;
 }
 
+.fa-clock{
+    font-size: 25px;
+}
+
 .busLocation{
+    float: left;
     font-size: 10px;
-    padding-left: 11%;
-    padding-right: 5%;
     text-align: center;
-    color: #ACBCD3;
+    padding-top:2%;
+    width: 30%;
+    color: #5D80B6;
 }
 
 .busLocation h1{
     margin-top: 5px;
+}
+
+.fa-bus{
+    font-size:25px;
 }
